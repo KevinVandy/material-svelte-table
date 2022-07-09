@@ -1,7 +1,7 @@
 {
   "version": "0.0.0",
   "license": "MIT",
-  "name": "svelte-material-table",
+  "name": "material-svelte-table",
   "description": "A fully featured Svelte Material UI implementation of TanStack Svelte Table, written from the ground up in Typescript.",
   "author": "Kevin Vandy",
   "keywords": [
