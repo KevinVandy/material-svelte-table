@@ -1,0 +1,41 @@
+{
+  "version": "0.0.0",
+  "license": "MIT",
+  "name": "svelte-material-table",
+  "description": "A fully featured Svelte Material UI implementation of TanStack Svelte Table, written from the ground up in Typescript.",
+  "author": "Kevin Vandy",
+  "keywords": [
+    "svelte-table",
+    "material-ui",
+    "material-table",
+    "tanstack table",
+    "data table"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinVandy/material-svelte-table"
+  },
+  "homepage": "https://www.material-svelte-table.com/",
+  "bugs": {
+    "url": "https://github.com/KevinVandy/material-svelte-table/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "rollup": "^2.76.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.49.0"
+  }
+}

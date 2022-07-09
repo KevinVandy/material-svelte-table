@@ -1,0 +1,8 @@
+dist
+storybook-static
+node_modules
+types
+*.json
+.next
+*.md
+material-react-table-docs/.next
